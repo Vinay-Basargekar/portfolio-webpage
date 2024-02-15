@@ -1,0 +1,168 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+html,
+body {
+	height: 100%;
+	/* if you want 1rem = 10px, easier for calculations */
+	/* font-size: 62.5%; */
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+}
+body {
+	/* line-height: 1.5; */
+	-webkit-font-smoothing: antialiased;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+	display: block;
+	max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+	font: inherit;
+	outline: none;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	overflow-wrap: break-word;
+}
+#root,
+#__next {
+	isolation: isolate;
+}
+
+@font-face {
+	font-family: Vinay;
+	src: url(./fonts/SpaceGrotesk-VariableFont_wght.ttf);
+}
+body {
+	background-color: #151515;
+	font-family: "Space Grotesk", sans-serif;
+	min-height: 100%;
+	/* margin: 0;    */
+}
+
+/* hero container part */
+
+.main-container {
+	position: relative;
+	height: 50rem;
+}
+
+.profile-photo {
+	position: absolute;
+	right: 10rem;
+	z-index: 0;
+	/* top: 0px; */
+	width: 27rem;
+	height: 45rem;
+	object-fit: contain;
+}
+
+.main-info {
+	display: flex;
+	flex-direction: column;
+	font-family: Vinay;
+	color: aliceblue;
+	position: absolute;
+	top: 15rem;
+	height: 100%;
+	/* z-index: -70; */
+	margin-left: 10rem;
+	width: 55rem;
+	h1 {
+		font-size: 5rem;
+		width: 50rem;
+		line-height: 88px;
+		letter-spacing: -2.5px;
+		align-content: flex-start;
+	}
+	.underline-name {
+		border-bottom: 6px solid #4ee1a0;
+		/* letter-spacing: -2.5px; */
+		/* height: 10px; */
+	}
+	.info {
+		padding-top: 3rem;
+		width: 40rem;
+		font-size: large;
+		font-weight: 700;
+	}
+	.underline {
+		margin-top: 3rem;
+		width: fit-content;
+		border-bottom: 3px solid #4ee1a0;
+		color: azure;
+		font-weight: 700;
+		text-decoration: none;
+		/* text-decoration-color: #4ee1a0;
+		-webkit-text-decoration-color: #4ee1a0; */
+		transition: all 250ms ease-in-out;
+	}
+	.underline:hover {
+		color: #4ee1a0;
+		display: inline-block;
+        fill: #4ee1a0;
+	}
+
+	/* .underline > *:hover {
+		fill: #4ee1a0;
+	} */
+}
+
+.rings {
+	position: absolute;
+	top: 12rem;
+	left: -13rem;
+	/* overflow-clip-margin: content-box;
+    overflow: clip; */
+}
+
+.nav-container {
+	position: absolute;
+	/* width: 90rem; */
+	z-index: 1;
+	display: flex;
+	justify-content: space-around;
+	align-content: center;
+}
+
+.nav-name {
+	color: white;
+	font-size: 32px;
+	letter-spacing: -0.44px;
+	margin-left: 10rem;
+	margin-top: 2rem;
+	font-family: Vinay;
+}
+
+.nav-links-container {
+	/* color: #151515; */
+	display: flex;
+	justify-content: space-between;
+	width: 10rem;
+	margin-top: 2.4rem;
+	margin-left: 42rem;
+	list-style-type: none;
+}
+
+svg:hover{
+    fill: #4ee1a0;
+}
