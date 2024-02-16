@@ -80,7 +80,7 @@ body {
 	z-index: 0;
 	/* top: 0px; */
 	width: 27rem;
-	height: 45rem;
+	height: 47rem;
 	object-fit: contain;
 }
 
@@ -143,10 +143,13 @@ body {
     overflow: clip; */
 }
 
+
 .rings3 {
 	position: absolute;
-	right: -15rem;
-	top: 70rem;
+    right: -10rem;
+	/* right: -15rem; */
+	top: 10rem; 
+    /* overflow-x: hidden; */
 }
 
 .circle {
@@ -196,7 +199,7 @@ svg:hover {
 	color: white;
 	margin: 5rem 0rem 0rem 10rem;
 	display: grid;
-	grid-template-rows: 100% 100%;
+	grid-template-rows: 10rem 10rem;
 	grid-template-columns: 1fr 1fr 1fr;
 	width: 70%;
     /* overflow: hidden; */
@@ -209,6 +212,9 @@ svg:hover {
 }
 .hands-on {
 	height: 30rem;
+    /* background-color: rebeccapurple; */
+    position: relative;
+    overflow: hidden;
 }
 
 .projects {
@@ -423,4 +429,10 @@ form textarea {
 
 svg:hover {
 	fill: #4ee1a0;
+}
+
+.rings4{
+    position: absolute;
+    left: -15rem;
+    top: 182.5rem;
 }
