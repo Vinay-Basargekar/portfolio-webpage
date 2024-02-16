@@ -411,6 +411,7 @@ form textarea {
 
 .send-message-button:hover {
 	background-color: #4ee1a0;
+    color:#242424;
 }
 
 .send-message-button:focus {
