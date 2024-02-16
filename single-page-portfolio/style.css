@@ -346,6 +346,23 @@ svg:hover {
 	border-bottom: 3px solid #4ee1a0;
 }
 
+.text:hover {
+	color: #4ee1a0;
+}
+.text1 {
+	margin-top: 2rem;
+	color: white;
+	font-size: 1.4rem;
+	padding: 0 0 6px 0;
+	display: inline-block;
+	text-decoration: none;
+	border-bottom: 3px solid #4ee1a0;
+}
+
+.text1:hover {
+	color: #4ee1a0;
+}
+
 .project-image {
 	width: 33rem;
 }
@@ -407,11 +424,13 @@ form textarea {
 	width: 150px; /* Adjust width as needed */
 	cursor: pointer;
 	transition: background-color 0.3s ease;
+	/* border-radius: 3px; */
+	font-weight: 500;
 }
 
 .send-message-button:hover {
 	background-color: #4ee1a0;
-    color:#242424;
+	color: #242424;
 }
 
 .send-message-button:focus {
@@ -480,12 +499,12 @@ svg:hover {
 		right: -20rem;
 		/* overflow:visible; */
 	}
-	.project-inner{
-        h1{
-            font-size: 3.5rem;
-        }
-        p{
-            font-size: 1.5rem;
-        }
-    }
+	.project-inner {
+		h1 {
+			font-size: 3.5rem;
+		}
+		p {
+			font-size: 1.5rem;
+		}
+	}
 }
