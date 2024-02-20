@@ -270,44 +270,29 @@
 						get back to you as soon as possible.
 					</p>
 				</div>
-
 				<form class="contact-form">
-					<label for="form-name"></label>
-					<input
-						type="text"
-						id="form-name"
-						name="form-name"
-						placeholder="NAME"
-					/>
-					<!-- <p id="error-name" class="error"></p> -->
+					<label for="name"></label>
+					<input type="text" id="name" name="name" placeholder="NAME" required />
 
-					<label for="form-email"></label>
-					<input
-						type="text"
-						id="form-email"
-						name="form-email"
-						placeholder="EMAIL"
-					/>
-					<!-- <p id="error-email" class="error"></p> -->
+					<label for="email"></label>
+					<input type="email" id="email" name="email" placeholder="EMAIL" />
 
-					<!-- <figure class="error-icon hide-error-icon">
-						<img src="images/warning.png" alt="incorrect-email-format" />
-					</figure> -->
-
-					<label for="form-message"></label>
+					<label for="message"></label>
 					<textarea
-						name="form-message"
-						id="form-message"
+						name="message"
+						id="message"
 						cols="30"
 						rows="10"
 						placeholder="MESSAGE"
 					></textarea>
-					<!-- <p id="error-message" class="error"></p> -->
 
 					<div class="send-button-container">
-						<button class="send-message-button">SEND MESSAGE</button>
+						<button class="send-message-button" type="submit" onclick="sendEmail()">
+							SEND MESSAGE
+						</button>
 					</div>
 				</form>
+
 			</div>
             <hr class="line">
             <div class="nav-container">
@@ -401,5 +386,8 @@
 				</ul>
 			</nav>
 		</footer>
+		<script src="https://smtpjs.com/v3/smtp.js"></script>
+		<script src="./script.js">
+		</script>
 	</body>
 </html>

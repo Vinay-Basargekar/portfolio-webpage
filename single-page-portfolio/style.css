@@ -404,6 +404,7 @@ form input {
 	color: #ffffff;
 	height: 43px;
 	width: 30rem;
+	margin-top: 0.5rem;
 }
 
 form textarea {
@@ -508,3 +509,9 @@ svg:hover {
 		}
 	}
 }
+
+/* .error {
+	color: red;
+	font-size: 0.8rem;
+	margin-top: 0.25rem;
+} */
