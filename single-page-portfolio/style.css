@@ -684,7 +684,7 @@ svg:hover {
 	}
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
 	.main-container {
 		height: 150rem;
 		width: 90rem;
