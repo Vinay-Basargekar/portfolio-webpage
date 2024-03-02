@@ -593,6 +593,7 @@ svg:hover {
 		width: 20rem;
 		list-style-type: none;
 		/* height: 20rem; */
+		/* color: #ffffff; */
 		.img-svg {
 			width: 3rem;
 			height: 6rem;
@@ -674,11 +675,387 @@ svg:hover {
 			width: auto;
 		}
 	}
-	.flex-container2{
+	.flex-container2 {
 		justify-content: space-between;
-		img{
+		img {
 			height: 30rem;
 			width: 40.89rem;
 		}
 	}
 }
+
+@media screen and (max-width: 320px) {
+	.main-container {
+		height: 150rem;
+		width: 90rem;
+	}
+	.nav-container {
+		flex-direction: column;
+	}
+	.nav-name {
+		margin-left: 20rem;
+		margin-top: 2rem;
+		font-size: 6rem;
+		width: 50rem;
+	}
+	.nav-links-container {
+		margin-left: 22rem;
+		margin-top: 3rem;
+		justify-content: space-between;
+		width: 30rem;
+		.img-svg {
+			width: 5rem;
+		}
+	}
+	.profile-photo {
+		height: 80rem;
+		width: fit-content;
+		top: 10rem;
+		right: 32rem;
+		object-fit: contain;
+	}
+	.rings {
+		height: 20rem;
+		z-index: 1;
+		left: -55rem;
+		top: 50rem;
+	}
+	.main-info {
+		top: 90rem;
+		margin-left: 5rem;
+		height: auto;
+		width: 70rem;
+		h1 {
+			font-size: 7rem;
+			width: 70rem;
+			line-height: 8rem;
+		}
+		.info {
+			width: 70rem;
+			margin-top: 3rem;
+			font-size: 4rem;
+			/* font-weight: 700; */
+		}
+		.underline {
+			font-size: 3rem;
+			margin-top: 3rem;
+		}
+	}
+	.line {
+		width: 100%;
+	}
+	.flex-container1 {
+		display: flex;
+		flex-direction: column;
+		img {
+			width: 75rem;
+			height: auto;
+		}
+		h1 {
+			font-size: 6rem;
+			width: fit-content;
+		}
+		p {
+			font-size: 3rem;
+			margin-bottom: 4rem;
+			width: fit-content;
+		}
+	}
+	.flex-container2 {
+		display: flex;
+		flex-direction: column;
+		img {
+			width: 75rem;
+			height: auto;
+		}
+		h1 {
+			font-size: 6rem;
+			width: fit-content;
+		}
+		p {
+			font-size: 3rem;
+			margin-bottom: 4rem;
+			width: fit-content;
+		}
+	}
+	.hands-on {
+		margin-left: 3rem;
+		height: 130rem;
+		h1 {
+			font-size: 11rem;
+		}
+		p {
+			font-size: 3rem;
+		}
+	}
+	.project-container {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: repeat(6, 1fr);
+		justify-items: center;
+	}
+	#js {
+		padding-left: 13rem;
+	}
+	#py {
+		padding-left: 6rem;
+	}
+	#html {
+		padding-left: 3rem;
+	}
+	.rings3 {
+		height: 15rem;
+	}
+	.rings4 {
+		height: 30rem;
+		width: 20rem;
+		top: 230rem;
+		left: -10rem;
+	}
+	.heading {
+		width: 75rem;
+		h1 {
+			font-size: 9rem;
+		}
+		.underline-project {
+			margin-top: 3rem;
+			font-size: 4rem;
+		}
+	}
+	.Contact {
+		flex-direction: column;
+	}
+	footer {
+		height: fit-content;
+	}
+	.Contact-info h1 {
+		font-size: 12rem;
+	}
+	.Contact-info p {
+		font-size: 3rem;
+		width: 60rem;
+	}
+	.contact-form {
+		padding-left: 0;
+		margin-left: 0;
+	}
+	form input {
+		height: 70px;
+		width: 60rem;
+		margin-top: 2rem;
+	}
+
+	form textarea {
+		height: 20rem;
+		width: 60rem;
+		font-size: 3rem;
+	}
+	input,
+	input::placeholder {
+		font-size: 3rem;
+		padding-bottom: 1rem;
+	}
+
+	.send-message-button {
+		height: 10rem;
+		width: 30rem;
+		font-size: 3rem;
+	}
+	.nav-name1{
+		visibility: hidden;
+		height: 1px;
+	}
+	.footer-links-container{
+		visibility: hidden;
+		height: 1px;
+	}
+}
+
+/* 
+@media screen and (max-width: 400px) {
+	.main-container {
+		height: 150rem;
+		width: 90rem;
+	}
+	.nav-container {
+		flex-direction: column;
+	}
+	.nav-name {
+		margin-left: 25rem;
+		margin-top: 2rem;
+		font-size: 6rem;
+		width: 50rem;
+	}
+	.nav-links-container {
+		margin-left: 28rem;
+		margin-top: 3rem;
+		justify-content: space-between;
+		width: 30rem;
+		.img-svg {
+			width: 5rem;
+		}
+	}
+	.profile-photo {
+		height: 80rem;
+		width: fit-content;
+		top: 10rem;
+		right: 25rem;
+		object-fit: contain;
+	}
+	.rings {
+		height: 20rem;
+		z-index: 1;
+		left: -55rem;
+		top: 50rem;
+	}
+	.main-info {
+		top: 90rem;
+		margin-left: 11rem;
+		height: auto;
+		width: 70rem;
+		h1 {
+			font-size: 7rem;
+			width: 70rem;
+			line-height: 8rem;
+		}
+		.info {
+			width: 70rem;
+			margin-top: 3rem;
+			font-size: 4rem;
+			/* font-weight: 700; */
+		}
+		.underline {
+			font-size: 3rem;
+			margin-top: 3rem;
+		}
+	}
+	.line {
+		width: 100%;
+	}
+	.flex-container1 {
+		display: flex;
+		flex-direction: column;
+		img {
+			width: 85rem;
+			height: auto;
+		}
+		h1 {
+			font-size: 6rem;
+			width: fit-content;
+		}
+		p {
+			font-size: 3rem;
+			margin-bottom: 4rem;
+			width: fit-content;
+		}
+	}
+	.flex-container2 {
+		display: flex;
+		flex-direction: column;
+		img {
+			width: 75rem;
+			height: auto;
+		}
+		h1 {
+			font-size: 6rem;
+			width: fit-content;
+		}
+		p {
+			font-size: 3rem;
+			margin-bottom: 4rem;
+			width: fit-content;
+		}
+	}
+	.hands-on {
+		margin-left: 3rem;
+		height: 130rem;
+		h1 {
+			font-size: 11rem;
+		}
+		p {
+			font-size: 3rem;
+		}
+	}
+	.project-container {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: repeat(6, 1fr);
+		justify-items: center;
+		width: 80rem;
+	}
+	#js {
+		padding-left: 13rem;
+	}
+	#py {
+		padding-left: 6rem;
+	}
+	#html {
+		padding-left: 3rem;
+	}
+	.rings3 {
+		height: 15rem;
+	}
+	.rings4 {
+		height: 30rem;
+		width: 20rem;
+		top: 230rem;
+		left: -10rem;
+	}
+	.heading {
+		width: 80rem;
+		h1 {
+			font-size: 9rem;
+		}
+		.underline-project {
+			margin-top: 3rem;
+			font-size: 4rem;
+		}
+	}
+	.Contact {
+		flex-direction: column;
+	}
+	footer {
+		height: fit-content;
+	}
+	.Contact-info h1 {
+		font-size: 12rem;
+	}
+	.Contact-info p {
+		font-size: 3rem;
+		width: 60rem;
+	}
+	.contact-form {
+		padding-left: 0;
+		margin-left: 0;
+	}
+	form input {
+		height: 70px;
+		width: 60rem;
+		margin-top: 2rem;
+	}
+
+	form textarea {
+		height: 20rem;
+		width: 60rem;
+		font-size: 3rem;
+	}
+	input,
+	input::placeholder {
+		font-size: 3rem;
+		padding-bottom: 1rem;
+	}
+
+	.send-message-button {
+		height: 10rem;
+		width: 30rem;
+		font-size: 3rem;
+	}
+	.nav-name1{
+		visibility: hidden;
+		height: 1px;
+	}
+	.footer-links-container{
+		visibility: hidden;
+		height: 1px;
+	}
+} */
