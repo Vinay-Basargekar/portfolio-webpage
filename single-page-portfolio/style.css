@@ -678,7 +678,7 @@ svg:hover {
 
 @media screen and (max-width: 425px) {
 	.main-container {
-		height: 160rem;
+		height: 170rem;
 		width: 90rem;
 	}
 	.nav-container {
@@ -688,19 +688,19 @@ svg:hover {
 		display: none;
 	}
 	.nav-links-container {
-		margin-left: 38rem;
-		margin-top: 3rem;
+		margin-left: 35rem;
+		margin-top: 10rem;
 		justify-content: space-between;
-		width: 30rem;
+		width: 40rem;
 		.img-svg {
 			width: 5rem;
 		}
 	}
 	.profile-photo {
-		height: 80rem;
+		height: 90rem;
 		width: fit-content;
-		top: 12rem;
-		right: 2rem;
+		top: 20rem;
+		right: -2rem;
 		object-fit: contain;
 	}
 	.rings {
@@ -710,8 +710,8 @@ svg:hover {
 		top: 50rem;
 	}
 	.main-info {
-		top: 90rem;
-		margin-left: 18rem;
+		top: 110rem;
+		margin-left: 16rem;
 		
 		height: auto;
 		width: 80rem;
