@@ -677,20 +677,20 @@ svg:hover {
 
 @media screen and (max-width: 425px) {
 	.main-container {
-		height: 150rem;
+		height: 160rem;
 		width: 90rem;
 	}
 	.nav-container {
 		flex-direction: column;
 	}
 	.nav-name {
-		margin-left: 30rem;
+		margin-left: 34rem;
 		margin-top: 2rem;
 		font-size: 6rem;
 		width: 50rem;
 	}
 	.nav-links-container {
-		margin-left: 30rem;
+		margin-left: 34rem;
 		margin-top: 3rem;
 		justify-content: space-between;
 		width: 30rem;
@@ -702,7 +702,7 @@ svg:hover {
 		height: 80rem;
 		width: fit-content;
 		top: 10rem;
-		right: 25rem;
+		right: 18rem;
 		object-fit: contain;
 	}
 	.rings {
@@ -713,7 +713,7 @@ svg:hover {
 	}
 	.main-info {
 		top: 90rem;
-		margin-left: 7rem;
+		margin-left: 14rem;
 		height: auto;
 		width: 80rem;
 		h1 {
@@ -739,7 +739,7 @@ svg:hover {
 		display: flex;
 		flex-direction: column;
 		img {
-			width: 85rem;
+			width: 100rem;
 			height: auto;
 		}
 		h1 {
@@ -756,7 +756,7 @@ svg:hover {
 		display: flex;
 		flex-direction: column;
 		img {
-			width: 85rem;
+			width: 100rem;
 			height: auto;
 		}
 		h1 {
@@ -772,6 +772,7 @@ svg:hover {
 	.hands-on {
 		margin-left: 3rem;
 		height: 130rem;
+		width: 104rem;
 		h1 {
 			font-size: 10rem;
 		}
@@ -784,7 +785,7 @@ svg:hover {
 		grid-template-columns: 1fr;
 		grid-template-rows: repeat(6, 1fr);
 		justify-items: center;
-		width: 80rem;
+		width: 100rem;
 	}
 	#js {
 		padding-left: 13rem;
@@ -805,15 +806,10 @@ svg:hover {
 		left: -10rem;
 	}
 	.circle {
-		/* position: absolute; */
-		right: -10rem;
-		top: 55rem;
-		height: 30rem;
-		color: #ffffff;
-		z-index: 30;
+		display: none;
 	}
 	.heading {
-		width: 80rem;
+		width: 100rem;
 		h1 {
 			font-size: 9rem;
 		}
@@ -822,11 +818,15 @@ svg:hover {
 			font-size: 4rem;
 		}
 	}
+	.projects {
+		width: 107rem;
+	}
 	.Contact {
 		flex-direction: column;
 	}
 	footer {
 		height: fit-content;
+		width: 107rem;
 	}
 	.Contact-info h1 {
 		font-size: 12rem;
