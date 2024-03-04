@@ -24,12 +24,7 @@ I would love to hear your suggestion over this :smile:
 
 ## Continued development
 
-I would like to praction position relative and absolute to the site I created. Also, I want to
-- Receive an error message when the `form` is submitted if:
-  - Any field is empty
-  - The email address is not formatted correctly
-- View the optimal layout for the interface depending on their device's screen size
-- See hover and focus states for all interactive elements on the page
+- Need to create more responsive webpage as I find difficulty for my webpage to build for different screen size.
 
 ## Useful resources
 
