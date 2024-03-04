@@ -76,12 +76,13 @@ body {
 
 .profile-photo {
 	position: absolute;
-	right: 10rem;
+	right: 5rem;
 	z-index: 0;
 	/* top: 0px; */
-	width: 27rem;
-	height: auto;
+	width: 30rem;
+	height: 50rem;
 	object-fit: contain;
+	
 }
 
 .main-info {
@@ -172,7 +173,7 @@ body {
 	font-size: 32px;
 	letter-spacing: -0.44px;
 	margin-left: 10rem;
-	margin-top: 2rem;
+	margin-top: 4rem;
 	font-family: Vinay;
 }
 .nav-name1 {
@@ -188,9 +189,9 @@ body {
 	/* color: #151515; */
 	display: flex;
 	justify-content: space-between;
-	width: 10rem;
-	margin-top: 2.4rem;
-	margin-left: 42rem;
+	width: 13rem;
+	margin-top: 4rem;
+	margin-left: 43rem;
 	list-style-type: none;
 }
 
@@ -684,13 +685,10 @@ svg:hover {
 		flex-direction: column;
 	}
 	.nav-name {
-		margin-left: 34rem;
-		margin-top: 2rem;
-		font-size: 6rem;
-		width: 50rem;
+		display: none;
 	}
 	.nav-links-container {
-		margin-left: 34rem;
+		margin-left: 38rem;
 		margin-top: 3rem;
 		justify-content: space-between;
 		width: 30rem;
@@ -701,8 +699,8 @@ svg:hover {
 	.profile-photo {
 		height: 80rem;
 		width: fit-content;
-		top: 10rem;
-		right: 18rem;
+		top: 12rem;
+		right: 2rem;
 		object-fit: contain;
 	}
 	.rings {
@@ -713,13 +711,15 @@ svg:hover {
 	}
 	.main-info {
 		top: 90rem;
-		margin-left: 14rem;
+		margin-left: 18rem;
+		
 		height: auto;
 		width: 80rem;
 		h1 {
 			font-size: 8rem;
 			width: 80rem;
 			line-height: 8rem;
+			margin-top: 2rem;
 		}
 		.info {
 			width: 80rem;
@@ -748,7 +748,7 @@ svg:hover {
 		}
 		p {
 			font-size: 3rem;
-			margin-bottom: 4rem;
+			margin-bottom: 8rem;
 			width: fit-content;
 		}
 	}
@@ -765,7 +765,7 @@ svg:hover {
 		}
 		p {
 			font-size: 3rem;
-			margin-bottom: 4rem;
+			margin-bottom: 8rem;
 			width: fit-content;
 		}
 	}
@@ -785,6 +785,7 @@ svg:hover {
 		grid-template-columns: 1fr;
 		grid-template-rows: repeat(6, 1fr);
 		justify-items: center;
+		gap: 10rem;
 		width: 100rem;
 	}
 	#js {
@@ -797,7 +798,8 @@ svg:hover {
 		padding-left: 3rem;
 	}
 	.rings3 {
-		height: 10rem;
+		height: 20rem;
+		right: -45rem;
 	}
 	.rings4 {
 		height: 20rem;
@@ -819,7 +821,8 @@ svg:hover {
 		}
 	}
 	.projects {
-		width: 107rem;
+		width: 100rem;
+		margin-left: 4rem;
 	}
 	.Contact {
 		flex-direction: column;
@@ -829,37 +832,38 @@ svg:hover {
 		width: 107rem;
 	}
 	.Contact-info h1 {
-		font-size: 12rem;
+		font-size: 20rem;
 	}
 	.Contact-info p {
-		font-size: 3rem;
-		width: 60rem;
+		font-size: 5rem;
+		width: 80rem;
 	}
 	.contact-form {
 		padding-left: 0;
 		margin-left: 0;
 	}
 	form input {
-		height: 70px;
-		width: 60rem;
+		height: 100px;
+		width: 80rem;
 		margin-top: 2rem;
 	}
 
 	form textarea {
 		height: 20rem;
-		width: 60rem;
-		font-size: 3rem;
+		width: 80rem;
+		font-size: 5rem;
 	}
 	input,
 	input::placeholder {
-		font-size: 3rem;
+		font-size: 5rem;
 		padding-bottom: 1rem;
 	}
 
 	.send-message-button {
 		height: 10rem;
-		width: 30rem;
-		font-size: 3rem;
+		width: 50rem;
+		margin-top: 5rem;
+		font-size: 5rem;
 	}
 	.nav-name1 {
 		visibility: hidden;
