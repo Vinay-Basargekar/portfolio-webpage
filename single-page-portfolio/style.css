@@ -881,6 +881,100 @@ svg:hover {
 	}
 }
 
+@media screen and (max-width: 375px){
+	.main-container {
+		height: 170rem;
+		width: 80rem;
+	}
+	.profile-photo {
+		height: 80rem;
+		top: 20rem;
+		right: 4rem;
+	}
+	.nav-links-container{
+		margin-left: 20rem;
+	}
+	.main-info{
+		margin-left: 5rem;
+		width: 70rem;
+		h1 {
+			font-size: 7rem;
+			width: 70rem;
+		}
+	}
+	.hands-on {
+		margin-left: 0rem;
+		width: 85rem;
+	}
+	.project-container {
+		width: 85rem;
+	}
+	.heading {
+		width: 75rem;
+	}
+	.projects {
+		width: 77rem;
+		margin-left: 4rem;
+	}
+	.Contact-info h1 {
+		font-size: 10rem;
+		width: fit-content;
+	}
+	.Contact-info p {
+		font-size: 4rem;
+		width: 70rem;
+	}
+	footer{
+		width: 85rem;
+	}
+	.Contact{
+		margin: 4rem;
+		width: 70rem;
+	}
+	.contact-form {
+		padding-left: 0;
+		margin-left: 0;
+		width: 70rem;
+	}
+	form input {
+		height: 100px;
+		width: 70rem;
+		margin-top: 2rem;
+	}
+
+	form textarea {
+		height: 20rem;
+		width: 70rem;
+		font-size: 5rem;
+	}
+	input,
+	input::placeholder {
+		font-size: 4rem;
+		padding-bottom: 1rem;
+	}
+
+	.send-message-button {
+		height: 10rem;
+		width: 50rem;
+		margin-top: 5rem;
+		font-size: 4rem;
+	}
+	.nav-name1 {
+		visibility: hidden;
+		height: 1px;
+	}
+	.footer-links-container {
+		visibility: hidden;
+		height: 1px;
+	}
+	.text{
+		font-size: 6rem;
+	}
+	.text1 {
+		font-size: 6rem;
+	}
+}
+
 @media screen and (max-width: 325px){
 	.main-container {
 		height: 170rem;
