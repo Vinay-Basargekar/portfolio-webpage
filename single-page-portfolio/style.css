@@ -76,7 +76,6 @@ body {
 	width: 30rem;
 	height: 50rem;
 	object-fit: contain;
-	
 }
 
 .main-info {
@@ -395,7 +394,7 @@ form textarea {
 	border: none;
 	color: #ffffff;
 	height: 43px;
-	width: 150px; 
+	width: 150px;
 	cursor: pointer;
 	transition: background-color 0.3s ease;
 	font-weight: 500;
@@ -480,8 +479,6 @@ svg:hover {
 	}
 }
 
-
-
 @media screen and (max-width: 780px) {
 	.main-info {
 		margin-left: 2rem;
@@ -490,7 +487,6 @@ svg:hover {
 			font-size: 8rem;
 			width: 50rem;
 			line-height: 8rem;
-			
 		}
 
 		.info {
@@ -501,7 +497,6 @@ svg:hover {
 		.underline {
 			font-size: 2rem;
 			margin-top: 3rem;
-
 		}
 	}
 	.main-container {
@@ -509,7 +504,7 @@ svg:hover {
 	}
 	.profile-photo {
 		right: 0rem;
-	
+
 		width: 40rem;
 		height: 70rem;
 		object-fit: fill;
@@ -521,10 +516,9 @@ svg:hover {
 		width: 30rem;
 	}
 
-
 	.nav-links-container {
 		display: flex;
-		
+
 		margin-top: 2.4rem;
 		margin-left: 25rem;
 		width: 20rem;
@@ -538,7 +532,6 @@ svg:hover {
 	.rings {
 		top: 7rem;
 		height: 10rem;
-
 	}
 
 	.rings3 {
@@ -553,7 +546,7 @@ svg:hover {
 		grid-template-columns: 1fr 1fr;
 		column-gap: 10rem;
 		row-gap: 3rem;
-		
+
 		h1 {
 			font-size: 7rem;
 		}
@@ -564,7 +557,6 @@ svg:hover {
 	}
 	.hands-on {
 		height: 50rem;
-
 	}
 	.line {
 		width: 95%;
@@ -577,7 +569,6 @@ svg:hover {
 		width: 85rem;
 	}
 	.heading {
-		
 		font-size: 6rem;
 	}
 	.underline-project {
@@ -599,8 +590,14 @@ svg:hover {
 }
 
 @media screen and (max-width: 425px) {
+	.middle {
+		top: 40%;
+		.text1 {
+			margin-top: 5rem;
+		}
+	}
 	.main-container {
-		height: 170rem;
+		height: 200rem;
 		width: 90rem;
 	}
 	.nav-container {
@@ -619,10 +616,10 @@ svg:hover {
 		}
 	}
 	.profile-photo {
-		height: 90rem;
+		height: 100rem;
 		width: fit-content;
 		top: 20rem;
-		right: -2rem;
+		right: -6rem;
 		object-fit: contain;
 	}
 	.rings {
@@ -632,29 +629,28 @@ svg:hover {
 		top: 50rem;
 	}
 	.main-info {
-		top: 110rem;
-		margin-left: 16rem;
-		
+		top: 115rem;
+		margin-left: 10rem;
 		height: auto;
-		width: 80rem;
+		width: 90rem;
 		h1 {
-			font-size: 8rem;
-			width: 80rem;
+			font-size: 9rem;
+			width: 90rem;
 			line-height: 8rem;
-			margin-top: 2rem;
+			margin-top: 10rem;
 		}
 		.info {
-			width: 80rem;
+			width: 90rem;
 			margin-top: 3rem;
-			font-size: 4rem;
+			font-size: 5rem;
 		}
 		.underline {
-			font-size: 3rem;
+			font-size: 4rem;
 			margin-top: 3rem;
 		}
 	}
 	.line {
-		width: 100%;
+		width: 90rem;
 	}
 	.flex-container1 {
 		display: flex;
@@ -794,7 +790,7 @@ svg:hover {
 		visibility: hidden;
 		height: 1px;
 	}
-	.text{
+	.text {
 		font-size: 6rem;
 	}
 	.text1 {
@@ -802,39 +798,50 @@ svg:hover {
 	}
 }
 
-@media screen and (max-width: 375px){
+@media screen and (max-width: 375px) {
 	.main-container {
-		height: 170rem;
+		height: 180rem;
 		width: 80rem;
 	}
 	.profile-photo {
-		height: 80rem;
+		height: 90rem;
 		top: 20rem;
-		right: 4rem;
+		right: -5rem;
 	}
-	.nav-links-container{
-		margin-left: 20rem;
+	.line{
+		width: 80rem;
 	}
-	.main-info{
-		margin-left: 5rem;
-		width: 70rem;
+	.rings3{
+		left: 60rem;
+	}
+	.nav-links-container {
+		margin-left: 30rem;
+	}
+	.main-info {
+		margin-left: 6rem;
+		margin-top: 0;
+		width: 80rem;
 		h1 {
+			margin-top: 0;
 			font-size: 7rem;
 			width: 70rem;
+		}
+		.info{
+			width: 80rem;
 		}
 	}
 	.hands-on {
 		margin-left: 0rem;
-		width: 85rem;
+		width: 90rem;
 	}
 	.project-container {
-		width: 85rem;
+		width: 90rem;
 	}
 	.heading {
-		width: 75rem;
+		width: 80rem;
 	}
 	.projects {
-		width: 77rem;
+		width: 82rem;
 		margin-left: 4rem;
 	}
 	.Contact-info h1 {
@@ -845,10 +852,10 @@ svg:hover {
 		font-size: 4rem;
 		width: 70rem;
 	}
-	footer{
-		width: 85rem;
+	footer {
+		width: 90rem;
 	}
-	.Contact{
+	.Contact {
 		margin: 4rem;
 		width: 70rem;
 	}
@@ -866,7 +873,7 @@ svg:hover {
 	form textarea {
 		height: 20rem;
 		width: 70rem;
-		font-size: 5rem;
+		font-size: 4rem;
 	}
 	input,
 	input::placeholder {
@@ -888,17 +895,17 @@ svg:hover {
 		visibility: hidden;
 		height: 1px;
 	}
-	.text{
-		font-size: 6rem;
+	.text {
+		font-size: 5rem;
 	}
 	.text1 {
-		font-size: 6rem;
+		font-size: 5rem;
 	}
 }
 
-@media screen and (max-width: 325px){
+@media screen and (max-width: 325px) {
 	.main-container {
-		height: 170rem;
+		height: 180rem;
 		width: 80rem;
 	}
 	.profile-photo {
@@ -906,15 +913,20 @@ svg:hover {
 		top: 20rem;
 		right: 5rem;
 	}
-	.nav-links-container{
+	.nav-links-container {
 		margin-left: 20rem;
 	}
-	.main-info{
+	.main-info {
+		top: 105rem;
 		margin-left: 5rem;
 		width: 70rem;
 		h1 {
 			font-size: 7rem;
+			width: 75rem;
+		}
+		.info{
 			width: 70rem;
+			font-size: 4.5rem;
 		}
 	}
 	.hands-on {
@@ -925,10 +937,10 @@ svg:hover {
 		width: 80rem;
 	}
 	.heading {
-		width: 70rem;
+		width: 73rem;
 	}
 	.projects {
-		width: 70rem;
+		width: 73rem;
 		margin-left: 4rem;
 	}
 	.Contact-info h1 {
@@ -939,10 +951,10 @@ svg:hover {
 		font-size: 4rem;
 		width: 70rem;
 	}
-	footer{
+	footer {
 		width: 80rem;
 	}
-	.Contact{
+	.Contact {
 		margin: 4rem;
 		width: 70rem;
 	}
@@ -982,10 +994,25 @@ svg:hover {
 		visibility: hidden;
 		height: 1px;
 	}
-	.text{
-		font-size: 6rem;
+	.flex-container1 {
+		.middle {
+			top: 40%;
+		}
+	}
+	.flex-container2{
+		.middle{
+			top: 30%;
+		}
+	}
+	.text {
+		font-size: 4rem;
 	}
 	.text1 {
-		font-size: 6rem;
+		font-size: 4rem;
+		margin-top: 5rem;
+	}
+	.rings3{
+		/* display: none; */
+		left: 60rem;
 	}
 }
