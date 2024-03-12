@@ -1,10 +1,5 @@
 # Single-page portfolio 
 
-## Screenshot
-
-![](./single-page-portfolio/assets/images/screenshot.png)
-
-
 ## Links
 
 - Live Site URL: [Visit again!](https://portfolio-webpage-lake.vercel.app/)
@@ -15,6 +10,7 @@
 - CSS
 - Flexbox
 - CSS Grid
+- JavaScript
 
 ## What I learned
 
